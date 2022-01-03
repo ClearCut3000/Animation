@@ -13,6 +13,7 @@
 		36C877312783388600BA161C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C8772F2783388600BA161C /* Main.storyboard */; };
 		36C877332783388B00BA161C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C877322783388B00BA161C /* Assets.xcassets */; };
 		36C877362783388B00BA161C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C877342783388B00BA161C /* LaunchScreen.storyboard */; };
+		36C877412783544700BA161C /* animationsample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36C877402783544600BA161C /* animationsample.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		36C877322783388B00BA161C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36C877352783388B00BA161C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36C877372783388B00BA161C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C877402783544600BA161C /* animationsample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animationsample.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		36C8771D2783388600BA161C = {
 			isa = PBXGroup;
 			children = (
+				36C8773F2783543800BA161C /* Screenshots */,
 				36C877282783388600BA161C /* Animation */,
 				36C877272783388600BA161C /* Products */,
 			);
@@ -65,6 +68,14 @@
 				36C877372783388B00BA161C /* Info.plist */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		36C8773F2783543800BA161C /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				36C877402783544600BA161C /* animationsample.gif */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C877362783388B00BA161C /* LaunchScreen.storyboard in Resources */,
+				36C877412783544700BA161C /* animationsample.gif in Resources */,
 				36C877332783388B00BA161C /* Assets.xcassets in Resources */,
 				36C877312783388600BA161C /* Main.storyboard in Resources */,
 			);
